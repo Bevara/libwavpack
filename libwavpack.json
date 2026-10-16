@@ -1,5 +1,6 @@
 {
     "name": "libwavpack",
+    "version": "1.0.1",
     "description": "WavPack decoder",
     "filters":["wvdec"],
     "help": "This filter decodes WavPack (.wv) audio using libwavpack.",
