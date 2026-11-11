@@ -2,19 +2,28 @@
     "name": "libwavpack",
     "version": "1.0.2",
     "description": "WavPack decoder",
-    "filters":["wvdec"],
+    "filters": [
+        "wvdec"
+    ],
     "help": "This filter decodes WavPack (.wv) audio using libwavpack.",
     "support": [
         "audio"
     ],
-    "sources":"https://bevara.ddns.net/sources/libwavpack.accessor",
-    "filter_source":{
-        "wvdec" : "dec_wavpack.c"
+    "sources": "https://bevara.ddns.net/sources/libwavpack.accessor",
+    "filter_source": {
+        "wvdec": "dec_wavpack.c"
     },
-    "extension":{
-      "wv" : "audio"
+    "extension": {
+        "wv": "audio"
     },
-    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_minimal_1.0.1",
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "royalty-free",
         "note": "WavPack",
